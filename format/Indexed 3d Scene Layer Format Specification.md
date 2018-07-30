@@ -11,7 +11,7 @@ This document specifies the Indexed 3D Scene layer (I3S) format, an open 3d cont
 format used to disseminate 3D GIS data to mobile, web and desktop clients. I3S is the choice of format used by <a href="http://server.arcgis.com/en/server/latest/publish-services/windows/scene-services.htm#">ArcGIS Scene Layers</a> and the Scene Services that deliver them. The first sections of
 this specification explain the conceptual structure of I3S, while the latter
 sections provide a detailed implementation-level view.</p>
-
+cache
 <h2>Table of Contents</h2>
 
 <ol>
@@ -659,7 +659,7 @@ SceneServiceInfo document can contain 1...* 3dSceneLayerInfo documents. Each 3dS
 	<tr>
 		<td>cachedDrawingInfo</td>
 		<td>cachedDrawingInfo</td>
-		<td>Indicates if any stylization infomraton represented as <code>drawingInfo</code> is addtionally captured as part of the binnary mesh representation for optimal client side access. Currently <code>color</code> component of the <code>drawingInfo</code> is supported.</td>
+		<td>Indicates if any stylization information represented as <code>drawingInfo</code> is additionally captured as part of the binary mesh representation for optimal client side access. Currently <code>color</code> component of the <code>drawingInfo</code> is supported.</td>
 	</tr>
 	<tr>
 		<td>drawingInfo</td>
